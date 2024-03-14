@@ -1,0 +1,36 @@
+transform ={}
+
+transform['a'] ='A' 
+transform['b'] ='B' 
+transform['c'] ='C' 
+transform['d'] ='D' 
+transform['e'] ='E' 
+transform['f'] ='F' 
+transform['g'] ='G' 
+transform['h'] ='H' 
+transform['i'] ='I' 
+transform['j'] ='J' 
+transform['k'] ='K' 
+transform['l'] ='L' 
+transform['m'] ='M' 
+transform['n'] ='N' 
+transform['o'] ='O' 
+transform['p'] ='P' 
+transform['q'] ='Q' 
+transform['r'] ='R' 
+transform['s'] ='S' 
+transform['t'] ='T' 
+transform['u'] ='U' 
+transform['v'] ='V' 
+transform['w'] ='W' 
+transform['x'] ='X' 
+transform['y'] ='Y' 
+transform['z'] ='Z' 
+
+key1=input('請輸入英文字母:')
+key1=list(key1)
+for i in range(len(key1)):
+    key1[i]=transform[key1[i]]
+
+output="".join(key1)
+print(":",output)
